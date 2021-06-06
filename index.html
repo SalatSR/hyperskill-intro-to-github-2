@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#portfolio">My photo</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line-1"></div>
+                <div class="line-2"></div>
+                <div class="line-3"></div>
+            </div>
+        </nav>
+        <h1>Jane Doe,<br> Front-end developer</h1>
+        <!-- <img alt="background" src="images/bg.jpg"> -->
+    </header>
+    <section id="about">
+        <div class="about-container-text">
+            <h2>About me</h2>
+            <p>HI, I'm Jane Doe. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="about-container-img">
+            <div>
+                <img class="about-container-img-img-1" alt="notebook" src="images/image.jpg">
+            </div>
+            <img class="about-container-img-img-2" alt="my photo" src="images/person.jpg">
+        </div>
+        <div class="clear"></div>
+    </section>
+    <section id="portfolio">
+        <h2>PORTFOLIO</h2>
+        <div class="portfolio-container-img">
+            <div class="portfolio-container-img-img-1">
+                <figure>
+                    <img alt="project1" src="images/project1.png">
+                    <figcaption><button class="open-window">Flashcards</button></figcaption>
+                </figure>
+
+                <div class="window popup">
+                    <div>
+                        <h2>Flashcards</h2>
+                        <p>You can see the project at the following link
+                            <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+                        <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                            a web page with flip-down flash cards, learned some HTML basics and<br>
+                            learned that CSS can easily make a beautiful design.</p>
+                        <button class="close-window">Close</button>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container-img-img-2">
+
+                <figure>
+                    <img alt="project2" src="images/project2.png">
+                    <figcaption><button class="open-window1">Piano</button></figcaption>
+                </figure>
+
+                <div class="window1 popup">
+                    <div>
+                        <h2>Piano</h2>
+                        <p>You can see the project at the following link
+                            <a href="https://flashcard.com" title="flashcard">flashcards</a> </p><br>
+                        <p>I did this project when I was studying the frontend on Hyperskill. I created<br>
+                            a web page with flip-down flash cards, learned some HTML basics and<br>
+                            learned that CSS can easily make a beautiful design.</p>
+                        <button class="close-window1">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>CONTACTS</h2>
+        <p>You can contact me at <a href="mailto:test@hyperskill.org">test@hyperskill.org</a></p>
+        <p>or phone number <a href="tel:12345678">12345678</a></p>
+        <div class="contacts-logo">
+            <a><img alt="twitter-logo" src="images/twitter.svg"></a>
+            <a><img alt="github-logo" src="images/github.svg"></a>
+            <a><img alt="facebook-logo" src="images/facebook.svg"></a>
+            <a><img alt="instagram-logo" src="images/instagram.svg"></a>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>JANE DOE</p>
+            <span>2020</span>
+        </div>
+    </footer>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

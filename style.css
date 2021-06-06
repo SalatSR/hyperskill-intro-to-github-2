@@ -1,0 +1,228 @@
+/*          RESET           */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+/*          HEADER          */
+header {
+    width: 100%;
+    color: #c8d2d2;
+
+    background: url("images/bg.jpg") no-repeat;
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    position: relative;
+    background-color: #1e1010;
+    text-align: right;
+}
+ul {
+
+}
+nav li {
+    display: inline-block;
+    padding: 40px;
+}
+nav a {
+    color: inherit;
+    font-size: 2em;
+}
+h1 {
+    font-size: 3em;
+/*    position: absolute;
+    top: 70%;
+    left: 250px;
+    z-index: 1;
+ */
+    padding: 500px 0 100px 0;
+    margin: 0 200px;
+}
+/*      Hamburger       */
+.hamburger {
+    display: none;
+    width: 70px;
+    height: 70px;
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    border: 1px solid white;
+}
+.line-1, .line-2, .line-3 {
+    width: 70%;
+    margin: 13px auto;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+
+
+    /*           ABOUT ME             */
+#about {
+    position: relative;
+    background-color: #cbd1d2;
+    padding: 200px;
+
+    border: 1px solid red;
+}
+.about-container-img .about-container-text {
+    display: inline-block;
+}
+.about-container-img {
+    position: relative;
+
+    border: 1px solid red;
+}
+.about-container-img-img-1 {
+    width: 700px;
+}
+.about-container-img-img-2 {
+    position: absolute;
+    width: 300px;
+    top: 20%;
+    left: 30%;
+}
+.about-container-text {
+    float: right;
+    width: 400px;
+}
+
+.about-container-text h2{
+    font-size: 3em;
+    padding: 30px 0;
+}
+.about-container-text p {
+    font-size: 1.5em;
+}
+
+/*          PORTFOLIO          */
+#portfolio {
+    text-align: center;
+    background-color: #f3f5f8;
+    padding: 0 200px 70px 200px;
+}
+#portfolio h2, #contacts h2 {
+    font-size: 2em;
+    padding: 30px 0 20px 0;
+}
+.portfolio-container-img > div {
+    display: inline-block;
+    margin: 0 20px;
+}
+.portfolio-container-img {
+    position: relative;
+    line-height: 40px;
+}
+.portfolio-container-img img {
+    width: 400px;
+    margin: 0 0 -40px 0;
+}
+.portfolio-container-img-img-1 {
+
+}
+.portfolio-container-img-img-2 {
+
+}
+#portfolio figure {
+    background-color: #fff;
+
+}
+#portfolio figcaption {
+    padding: 10px 0;
+}
+
+/*  pop up  */
+.window, .window1{
+    position:absolute;
+    padding:20px;
+    border:solid black 1px;
+    border-radius:5px;
+//    margin-left:550px;
+    margin-bottom:50px;
+    display: none;
+// background:url("https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg");
+    background:white;
+    text-align:center;
+    z-index:2;
+
+}
+button{
+    padding:10px;
+    background:green;
+    border-radius:5px;
+}
+
+
+/*          CONTACTS          */
+#contacts {
+    background-color: #fff;
+    text-align: center;
+    padding: 0 200px 20px 200px;
+}
+#contacts p {
+    margin-bottom: 10px;
+}
+.contacts-logo img {
+    width: 30px;
+    margin: 15px;
+}
+
+/*          FOOTER          */
+footer {
+    background-color: #1e1010;
+    text-align: center;
+    color: #c8d2d2;
+    padding: 20px 0;
+}
+footer p {
+    font-size: 2em;
+    margin: 5px 0;
+}
+footer span {
+}
